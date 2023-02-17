@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Fira+Sans+Condensed:wght@500;600;900&family=Mulish:wght@400;700&family=Nunito:wght@300&family=Poppins:wght@400;500;700&family=Tapestry&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    background: #F8F8FB;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.component--login {
+    width: 451px;
+}
+
+ header {
+    background: #b9c1ed;
+    height: 112px;
+    border-radius: 4px;
+    padding: 24px;
+}
+
+header h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #4f64d9;
+}
+
+header p {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.login-content {
+    background: #fff;
+    padding: 0 28px 24px;
+}
+
+.avatar {
+    position: relative;
+    top: -24px;
+    margin-bottom: 8px;
+}
+
+img {
+    border: 3px solid #F8F8FB;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+ul li {
+    margin-bottom: 16px;
+}
+
+.title {
+    display: block;
+    color: #495057;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #CED4DA;
+    padding: 0 12px;
+    font-size: 13px;
+}
+
+input::placeholder {
+    color: #495057;
+}
+
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    border: 1px solid #ADB5BD;
+    margin-right: 8px;
+}
+
+.text {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+button {
+    height: 36px;
+    border: 5px;
+    border-radius: 5px;
+    border-color: #fff;
+    background: #444f8e;
+    cursor: pointer;
+    width: 100%;
+    font-size: 13px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: #0d122f;
+}
+
+.forget-password {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #74788D;
+    margin-top: 24px;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer a {
+    margin-left: 10px;
+}
